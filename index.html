@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Portofolio</title>
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css"
+
+</head>
+
+<body>
+  <!-- Header -->
+  <section id="header">
+    <div class="header container">
+      <div class="nav-bar">
+        <div class="brand">
+          <a href="#hero">
+            <h1>Geng'z</h1>
+          </a>
+        </div>
+        <div class="nav-list">
+          <div class="hamburger">
+            <div class="bar"></div>
+          </div>
+          <ul>
+            <li><a href="#hero" data-after="Home">Home</a></li>
+            <li><a href="#projects" data-after="Projects">Project</a></li>
+            <li><a href="#certificates" data-after="certificates">Certificates</a></li>
+            <li><a href="#about" data-after="About">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Header -->
+
+  <!-- Hero Section  -->
+  <section id="hero">
+    <div class="hero container">
+      <div>
+        <h1>Hello, <span></span></h1>
+        <h1>I'Am A <span></span></h1>
+        <h1>Web Developer <span></span></h1>
+        <a href="#projects" type="button" class="cta">See</a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero Section  -->
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="projects container">
+      <div class="projects-header">
+        <h1 class="section-title">Project</h1>
+      </div>
+      <div class="all-projects">
+        <div class="project-item">
+          <div class="project-info">
+            <h1>School Website</h1>
+            <p>School Website ini adalah projek pertama saya dalam membuat web menggunakan HTML dan CSS </p>
+          </div>
+          <div class="project-img">
+            <img src="./img/schoolproject.png" alt="img">
+          </div>
+      </div>
+      <div class="project-item">
+        <div class="project-info">
+          <h1>Clothing App</h1>
+          <p>Clothing App adalah aplikasi yang menyediakan berbagai baju untuk dibeli, semua baju yang dijual disini sudah terjamin kualitasnya</p>
+        </div>
+        <div class="project-img">
+          <img src="./img/Dribbble shot HD - 5.png" alt="img">
+        </div>
+    </div>
+    <div class="project-item">
+      <div class="project-info">
+        <h1>Kisah Nabi App</h1>
+        <p>Kisah Nabi App adalah aplikasi yang menyediakan cerita dari 25 Nabi dan 5 Rasul</p>
+      </div>
+      <div class="project-img">
+        <img src="./img/Dribbble shot HD - 6.png" alt="img">
+      </div>
+  </div>
+  <div class="project-item">
+    <div class="project-info">
+      <h1>Alarm App</h1>
+      <p>Alarm App adalah aplikasi yang membantu usernya untuk menjadwalkan sesuatu agar user dapat melakukannya tepat waktu</p>
+    </div>
+    <div class="project-img">
+      <img src="./img/Dribbble shot HD - 3.png" alt="img">
+    </div>
+</div>
+    </div>
+  </section>
+  <!-- End Projects Section -->
+
+  <div id="certificates"></div>
+<!-- Slideshow container -->
+<div class="slideshow-container fade">
+
+  <div class="projects-header">
+    <h1 class="section-title">Certificates</h1>
+  </div>
+
+  <!-- Full images with numbers and message Info -->
+  <div class="Containers">
+    <img src="./img/baparekraf-developer-day-2022-certificate1.png">
+    <div class="Info">Event Certificate</div>
+  </div>
+
+  <div class="Containers">
+    <img src="./img/idcamp-x-dicoding-live-software-architecture-101-certificate.png">
+    <div class="Info">Event Certificate</div>
+  </div>
+
+  <div class="Containers">
+    <img src="./img/dicodingnafgeng.png">
+    <div class="Info">Android Certificate</div>
+  </div>
+
+  <div class="Containers">
+    <img src="./img/Flutter Certi-1.png">
+    <div class="Info">Flutter Certificate</div>
+  </div>
+
+  <div class="Containers">
+    <img src="./img/Html.png">
+    <div class="Info">HTML Certificate</div>
+  </div>
+
+  <div class="Containers">
+    <img src="./img/Javascript.png">
+    <div class="Info">Javascript Certificate</div>
+  </div>
+
+  <div class="Containers">
+    <img src="./img/Skilvul-SkilBadge-HTML Dasar-1.png">
+    <div class="Info">HTML Certificate</div>
+  </div>
+
+  <div class="Containers">
+    <img src="./img/Skilvul-SkilBadge-CSS Dasar-1.png">
+    <div class="Info">CSS Certificate</div>
+  </div>
+
+  <div class="Containers">
+    <img src="./img/Skilvul-SkilBadge-JavaScript Dasar.png">
+    <div class="Info">Javascript Certificate</div>
+  </div>
+
+  <div class="Containers">
+    <img src="./img/cert-23189194-1160 (2).png">
+    <div class="Info">Kotlin Certificate</div>
+  </div>
+
+  <div class="Containers">
+    <img src="./img/cert-1014-23189194 (2).jpg">
+    <div class="Info">HTML Certificate</div>
+  </div>
+
+  <!-- Back and forward buttons -->
+  <a class="Back" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="forward" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The circles/dots -->
+<div style="text-align:center">
+  <span class="dots" onclick="currentSlide(1)"></span>
+  <span class="dots" onclick="currentSlide(2)"></span>
+  <span class="dots" onclick="currentSlide(3)"></span>
+</div>
+
+  <!-- About Section -->
+  <section id="about">
+    <div class="about container">
+      <div class="col-left">
+        <div class="about-img" data-aos="fade-right">
+          <img src="./img/me.jpeg" alt="img">
+        </div>
+      </div>
+      <div class="col-right" data-aos="fade-left">
+        <h1 class="section-title">About <span>me</span></h1>
+        <h2>Front End Developer</h2>
+        <p>Beliau adalah seorang anak yang berasal dari kota Tangerang dan lahir pada tanggal 06 Februari 2006. Beliau sangat suka dengan hal baru apalagi yang namanya teknologi oleh karena itu setelah smp ia pun memutuskan untuk masuk IDN agar bisa mempunyai ilmu tentang teknologi yang lebih banyak</p>
+      </div>
+    </div>
+  </section>
+  <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="contact container" data-aos="fade-up">
+      <div>
+        <h1 class="section-title">Contact <span>info</span></h1>
+      </div>
+      <div class="contact-items">
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" /></div>
+          <div class="contact-info">
+            <h1>Phone</h1>
+            <h2>+6285 7175 99919</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/new-post.png" /></div>
+          <div class="contact-info">
+            <h1>Email</h1>
+            <h2>nafgeng@gmail.com</h2>
+          </div>
+        </div>
+        <div class="contact-item">
+          <div class="icon"><img src="https://img.icons8.com/bubbles/100/000000/map-marker.png" /></div>
+          <div class="contact-info">
+            <h1>Address</h1>
+            <h2>Cipondoh, Tangerang City, Banten</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End Contact Section -->
+
+  <!-- Footer -->
+  <section id="footer">
+    <div class="footer container">
+      <div class="brand">
+        <h1><span>N</span>af<span>G</span>eng</h1>
+      </div>
+      <div class="social-icon">
+        <div class="social-item">
+          <a href="https://www.youtube.com/channel/UCT3sgr2mwpvBsV7zj84rIGw"><img src="https://img.icons8.com/bubbles/100/000000/youtube.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.instagram.com/nafgeng/"><img src="https://img.icons8.com/bubbles/100/000000/instagram-new.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://github.com/Nafgeng"><img src="https://img.icons8.com/bubbles/100/000000/github.png" /></a>
+        </div>
+        <div class="social-item">
+          <a href="https://www.linkedin.com/in/nafgengs/"><img src="https://img.icons8.com/bubbles/100/000000/linkedin.png" /></a>
+        </div>
+      </div>
+      <p>© 2022 - Nafi Ageng Dhiandra</p>
+    </div>
+  </section>
+  <!-- End Footer -->
+  <script src="./app.js"></script>
+</body>
+
+</html>
