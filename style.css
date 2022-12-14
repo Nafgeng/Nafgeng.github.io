@@ -380,8 +380,9 @@ p {
 }
 .img-teknologi{
 	margin-top: 20px;
-	width: 25%;
 	display: flex;
+	padding: 20;
+	width: 20%;
 }
 #projects .project-img {
 	flex-basis: 50%;
